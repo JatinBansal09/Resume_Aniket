@@ -13,7 +13,7 @@ with sync_playwright() as p:
     
     # Set the PDF generation options
     pdf_options = {
-        'path': "F:\Study\Tslas-DESKTOP-G14D31O\Year 4\Sem 8\Online Courses\HTML and CSS\HTML\Projects\Aniket_resume.pdf",
+        'path': "Aniket_resume.pdf",
         'format': 'A4',  # Specify the page format
         'prefer_css_page_size': True,  # Use CSS page size definitions
         'print_background': True,  # Print background colors and images
